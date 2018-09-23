@@ -63,6 +63,7 @@
 * [User passwords: /etc/passwd & shadow suite](docs/user-passwords.md)
 * [passwd](docs/passwd.md)
 * [which](docs/which.md)
+* [date](docs/date.md)
 
 ## Solving problems
 
