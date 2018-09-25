@@ -64,6 +64,7 @@
 * [passwd](docs/passwd.md)
 * [which](docs/which.md)
 * [date](docs/date.md)
+* [Shell builtins](docs/shell-builtins.md)
 
 ## Solving problems
 
