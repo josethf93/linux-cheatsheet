@@ -65,12 +65,13 @@ Suppose you have a file owned by root. Trying to write to this file as a normal 
 ```bash
 $ whoami
 vagrant
-$ echo "hello world" | tee /root/out.txt
-tee: /root/out.txt: Permission denied
-hello world
+$ echo "hello world" > /root.out.txt
+-bash: /root.out.txt: Permission denied
+$ sudo echo "hello world" > /root.out.txt
+-bash: /root.out.txt: Permission denied
 ```
 
-We need to run `tee` with `sudo` to fix this:
+We can use `tee` with `sudo` to achieve what we want:
 
 ```bash
 $ echo "hello world" | sudo tee /root/out.txt
