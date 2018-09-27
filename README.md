@@ -65,6 +65,7 @@
 * [which](docs/which.md)
 * [date](docs/date.md)
 * [Shell builtins](docs/shell-builtins.md)
+* [eval](docs/eval.md)
 
 ## Solving problems
 
