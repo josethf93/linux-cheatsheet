@@ -66,6 +66,7 @@
 * [date](docs/date.md)
 * [Shell builtins](docs/shell-builtins.md)
 * [eval](docs/eval.md)
+* [PAM](docs/pam.md)
 
 ## Solving problems
 
