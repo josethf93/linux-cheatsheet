@@ -67,6 +67,7 @@
 * [Shell builtins](docs/shell-builtins.md)
 * [eval](docs/eval.md)
 * [PAM](docs/pam.md)
+* [yum repository](docs/yum-repo.md)
 
 ## Solving problems
 
