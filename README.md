@@ -68,6 +68,7 @@
 * [eval](docs/eval.md)
 * [PAM](docs/pam.md)
 * [yum repository](docs/yum-repo.md)
+* [yum commands](docs/yum-commands.md)
 
 ## Solving problems
 
