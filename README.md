@@ -69,6 +69,7 @@
 * [PAM](docs/pam.md)
 * [yum repository](docs/yum-repo.md)
 * [yum commands](docs/yum-commands.md)
+* [traceroute](docs/traceroute.md)
 
 ## Solving problems
 
