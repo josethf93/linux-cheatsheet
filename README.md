@@ -71,6 +71,7 @@
 * [yum commands](docs/yum-commands.md)
 * [traceroute](docs/traceroute.md)
 * [Shell and Environment variables](docs/shell-and-environment-variables.md)
+* [tr](docs/tr.md)
 
 ## Solving problems
 
