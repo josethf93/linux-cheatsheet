@@ -72,6 +72,7 @@
 * [traceroute](docs/traceroute.md)
 * [Shell and Environment variables](docs/shell-and-environment-variables.md)
 * [tr](docs/tr.md)
+* [sudo](docs/sudo.md)
 
 ## Solving problems
 
