@@ -73,6 +73,7 @@
 * [Shell and Environment variables](docs/shell-and-environment-variables.md)
 * [tr](docs/tr.md)
 * [sudo](docs/sudo.md)
+* [Command history](docs/history.md)
 
 ## Solving problems
 
