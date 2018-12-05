@@ -74,6 +74,7 @@
 * [tr](docs/tr.md)
 * [sudo](docs/sudo.md)
 * [Command history](docs/history.md)
+* [hostname](docs/hostname.md)
 
 ## Solving problems
 
