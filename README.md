@@ -75,6 +75,7 @@
 * [sudo](docs/sudo.md)
 * [Command history](docs/history.md)
 * [hostname](docs/hostname.md)
+* [hash command](docs/hash.md)
 
 ## Solving problems
 
