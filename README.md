@@ -76,6 +76,7 @@
 * [Command history](docs/history.md)
 * [hostname](docs/hostname.md)
 * [hash command](docs/hash.md)
+* [File permissions](docs/file-permissions.md)
 
 ## Solving problems
 
