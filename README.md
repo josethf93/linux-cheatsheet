@@ -78,6 +78,7 @@
 * [hash command](docs/hash.md)
 * [File permissions](docs/file-permissions.md)
 * [Logging](docs/logging.md)
+* [Log rotation](docs/log-rotation.md)
 
 ## Solving problems
 
