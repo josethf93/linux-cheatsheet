@@ -1,0 +1,50 @@
+#################Listing open files to processes
+lsof | grep -i deleted | sort -n -k7 |awk '{for(i=1;i<=6;i++){printf "%s ", $i}; print $7/(1024*1024*1024) "GB" " "$8" "$9 }' 
+
+
+#!/usr/local/bin/expect -f
+#logfile=/var/log/server.log
+read -p "Enter user_id with which you gong to check the logs:"  user
+for box in <list server names> ; do
+	ssh $user@$box -q "grep -i <string_to_grep>  <path>*.log | tail -1";
+#	sed 's//' 
+done
+
+#################Rsync command
+rsync -av --ignore-existing user@remote_host:/path/to/remote/directory/* /path/to/local/directory/
+rsync -av   --ignore-existing --include dir1/ --include dir2/ --include dir3/ --exclude dir4/ --exclude dir5/ user@host:path ./
+
+
+#################Rename multiple files.
+for i in *20191209; do mv "$i" "${i/.20191209/}" ; done
+for i in *_BLOCK; do mv "$i" "${i/_BLOCK/_UNBLOCK}" ; done
+
+#################Disk utilization:
+du -s * | sort -n | cut -f2- | xargs -d "\n" du -sh
+find . -maxdepth 1 -type d | xargs du -s | sort -nr | cut -d "/" -f2- | xargs du -sh
+
+
+#################Mailing command:
+echo "Messages"|mailx -s "output" -a * email_id
+
+
+#################Delete Files Older Than x Days on Linux
+find ./ -type f -mtime +10 -exec rm {} \;
+find /local/apps/* -size +10000 -name *log* -mtime +365 -delete
+
+#################Kill multiple processes:
+kill -TERM `ps -ef | grep -i <processes to kill> | grep -v process-alert | awk '{print $2;}'`
+ps -ef | grep -i <processes to kill> | grep -v process-alert | awk '{print $2;}'  - (confirm there are no processes with cmd)
+ps -ef | grep -i <processes to kill> | grep -v grep | awk '{print $2;}'
+ps -ef | grep <processes to kill> | grep <processes to kill> | egrep '<processes to kill>' | awk '{print $2;}' | xargs kill -9
+
+#################Find and Replace
+
+To find each occurrence of ‘UNIX’, and replace it with ‘Linux’, enter (press ESC, type : and following command):
+:%s/UNIX/Linux/g
+
+#################Backup and restore DB
+# mysqldump -u [username] –p[password] [database_name] > [dump_file.sql]
+mysql "Database_Name" < Database_Name.sql
+
+
